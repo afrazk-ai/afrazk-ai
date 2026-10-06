@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="250" viewBox="0 0 860 250" role="img" aria-labelledby="t">
+  <title id="t">Afraz Khan, Senior AI Engineer at Wispa Digital, building AI agents for marketing teams</title>
+  <style>
+    text { font-family: "JetBrains Mono", "Cascadia Code", "SFMono-Regular", Consolas, Menlo, monospace; font-size: 17px; }
+    .p { fill: #3fb950; }
+    .c { fill: #e6edf3; }
+    .o { fill: #8b949e; }
+    .a { fill: #f0b429; }
+    .l { animation: show .01s backwards; }
+    .type { animation: type .8s steps(14) backwards; }
+    .cur { fill: #3fb950; animation: blink 1s steps(1) infinite; }
+    @keyframes show { from { opacity: 0; } to { opacity: 0; } }
+    @keyframes type { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
+    @keyframes blink { 50% { opacity: 0; } }
+    .spider { animation: dangle 3.2s ease-in-out infinite; }
+    .legs { transform-origin: 0 0; animation: wiggle .6s ease-in-out infinite alternate; }
+    @keyframes dangle { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(34px); } }
+    @keyframes wiggle { to { transform: rotate(6deg); } }
+    @media (prefers-reduced-motion: reduce) {
+      .spider, .legs { animation: none; }
+      .l, .type { animation: none; }
+      .cur { animation: none; }
+    }
+  </style>
+
+  <rect x="1" y="1" width="858" height="248" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <circle cx="26" cy="24" r="6" fill="#ff5f57"/>
+  <circle cx="46" cy="24" r="6" fill="#febc2e"/>
+  <circle cx="66" cy="24" r="6" fill="#28c840"/>
+  <text x="430" y="29" text-anchor="middle" class="o" style="font-size:13px">afraz@wispa: ~</text>
+  <line x1="1" y1="46" x2="859" y2="46" stroke="#30363d"/>
+
+  <g class="l" style="animation-delay:.2s">
+    <text x="28" y="84" class="p">$</text>
+    <text x="48" y="84" class="c type" style="animation-delay:.2s">whoami</text>
+  </g>
+  <text x="28" y="112" class="l" style="animation-delay:1.3s"><tspan class="a">Afraz Khan</tspan><tspan class="o"> · </tspan><tspan class="c">Senior AI Engineer @ Wispa Digital</tspan></text>
+
+  <g class="l" style="animation-delay:1.8s">
+    <text x="28" y="152" class="p">$</text>
+    <text x="48" y="152" class="c type" style="animation-delay:1.8s">cat focus.txt</text>
+  </g>
+  <text x="28" y="180" class="l o" style="animation-delay:2.9s">agents · competitor research · SEO · brand-aware content</text>
+
+  <g class="l" style="animation-delay:3.4s">
+    <text x="28" y="220" class="p">$</text>
+    <rect x="46" y="206" width="10" height="18" class="cur"/>
+  </g>
+
+  <!-- tiny spider on its thread -->
+  <clipPath id="body"><rect x="1" y="47" width="858" height="202" rx="12"/></clipPath>
+  <g clip-path="url(#body)">
+    <g class="spider">
+      <g transform="translate(790 110)">
+        <line x1="0" y1="-120" x2="0" y2="-9" stroke="#8b949e" stroke-width="1"/>
+        <g class="legs" stroke="#e6edf3" stroke-width="2" fill="none" stroke-linecap="round">
+          <path d="M-6 -3 L-16 -12 L-22 -4"/><path d="M-7 1 L-18 -3 L-24 5"/>
+          <path d="M-7 4 L-17 7 L-22 15"/><path d="M-5 7 L-13 14 L-15 22"/>
+          <path d="M6 -3 L16 -12 L22 -4"/><path d="M7 1 L18 -3 L24 5"/>
+          <path d="M7 4 L17 7 L22 15"/><path d="M5 7 L13 14 L15 22"/>
+        </g>
+        <ellipse cx="0" cy="2" rx="9" ry="11" fill="#e5484d"/>
+        <ellipse cx="-3.5" cy="-1" rx="3" ry="4" fill="#fff" transform="rotate(-20 -3.5 -1)"/>
+        <ellipse cx="3.5" cy="-1" rx="3" ry="4" fill="#fff" transform="rotate(20 3.5 -1)"/>
+      </g>
+    </g>
+  </g>
+</svg>

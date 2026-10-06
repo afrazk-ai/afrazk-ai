@@ -4,19 +4,12 @@
 
 ```python
 class AfrazKhan:
-    role     = "Senior AI Engineer"
-    company  = "Wispa Digital"
-    based_in = "Islamabad, PK"
-
-    building = {
-        "competitor_research": "LangGraph agents that track and summarise what competitors ship",
-        "marketing_ideas":     "agents that turn a brief into campaign and content ideas",
-        "seo_analysis":        "LLM pipelines that audit pages and surface ranking gaps",
-        "brand_content":       "generation workflows that stay on brand voice",
-    }
-
-    also = "helping the dev team ship AI features into production apps"
-    llm_stack = ["OpenAI", "LangGraph", "LangChain", "Langfuse", "LangSmith", "pgvector"]
+    role   = "Senior AI Engineer @ Wispa Digital"
+    builds = ["competitor research agents", "SEO analysis pipelines",
+              "brand-voice content workflows", "marketing idea generators"]
+    stack  = ["LangGraph", "LangChain", "OpenAI", "pgvector", "Langfuse"]
+    ships  = "AI features into production apps"
+    based  = "Islamabad, PK"
 ```
 
 <h3 align="center">toolbox</h3>
@@ -35,4 +28,3 @@ class AfrazKhan:
   </picture>
 </p>
 
-<p align="center"><sub><code>$ exit 0</code></sub></p>
